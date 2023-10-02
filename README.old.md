@@ -15,5 +15,6 @@ Technologies
 Start Project
 
 npm start
+install Sass - npm install sass
 
 
