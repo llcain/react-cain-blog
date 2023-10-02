@@ -11,3 +11,9 @@ Technologies
 1. React
 1a. React useState
 2. Sass
+
+Start Project
+
+npm start
+
+
