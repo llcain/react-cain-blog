@@ -9,9 +9,14 @@ const Home = () => {
         { title: 'How to create index file', body: 'Open project in vs code. Click on new file. Name the file index.html. Put markup language in it. Start live server.', author: 'laquisha', id: 3}
     ]);
 
+    const handleDelete = (id) => {
+        const newBlogs = blogs.filter(blog => blog.id !== id);
+        setBlogs(newBlogs);
+    }
+
     return ( 
         <div className="home">
-            <BlogList blogs={blogs} title="All Blogs" />
+            <BlogList blogs={blogs} title="All Blogs" handleDelete={handleDelete} />
         </div>
         
      );
