@@ -1,4 +1,10 @@
 $primary-color: #FF0000;
+$secondary-color: green;
+
+body {
+  background-color: $secondary-color;
+}
+
 
 h1 {
   color: $primary-color;

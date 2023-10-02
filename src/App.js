@@ -1,10 +1,15 @@
 
 import '../src/App.scss';
+import Navbar from './Navbar';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello!</h1>
+      <Navbar />
+      <div className='content'>
+        <h1>Hello!</h1>
+      </div>
+      
     </div>
   );
 }
