@@ -29,6 +29,12 @@
       "body": "To add a link to the styles sheet in the index.html file, first you must create a styles.css file in vs code. Add your styles. Then go to index.html in the header section, type link. The link tag should open. Add the path to the styles.css in the href.",
       "author": "Codedreamer",
       "id": 7
+    },
+    {
+      "title": "Adding Sass to React Project",
+      "body": "I will explain how to add Sass to your react project. First you must install in the root folder of your react project by typing, \"npm install sass\". Once you've done that, change src/App.css to src/App.scss. You will be able to click on the watch sass button in vs code to check your sass styles.",
+      "author": "Codedreamer",
+      "id": 8
     }
   ]
 }
