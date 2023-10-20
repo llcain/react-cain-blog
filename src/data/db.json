@@ -1,16 +1,34 @@
 {
-    "blogs": [
-        {
-            "title": "My first blog",
-            "body": "This is my first blog post",
-            "author": "laquisha",
-            "id": 1
-        },
-        {
-            "title": "My second blog post",
-            "body": "This is my second blog post. How do you like it?",
-            "author": "laquisha",
-            "id": 2
-        }
-    ]
+  "blogs": [
+    {
+      "title": "My first blog",
+      "body": "This is my first blog post",
+      "author": "laquisha",
+      "id": 1
+    },
+    {
+      "title": "My second blog post",
+      "body": "This is my second blog post. How do you like it?",
+      "author": "laquisha",
+      "id": 2
+    },
+    {
+      "title": "Creating an HTML file in VS Code",
+      "body": "Let's talk about how to make an HTML file in VS Code. First of all you will have to download VS Code to your machine. Next, open VS Code. Go to the file menu button the top right corner and click on \"new file\". Type index.html and click enter. The file is created. To get a boiler plate, type explanation key and click tab. This will generate the boiler plate for the file. Give the website a title. Go in the body section and add a h1 and put \"My first website\" in between the opening and closing h1 element tag. Go to the extension's tab in vs code and search for live server. Once the extension is installed, go back the the index.html file. At the bottom is  a \"Go Live\" button. Click on it and you should see the heading of \"My First Website\". Congratulations!! You've created you first HTML file.",
+      "author": "Codedreamer",
+      "id": 3
+    },
+    {
+      "title": "CSS or Sass",
+      "body": "I have a question to ask...Do you refer to use CSS or Sass and why? I prefer to use Sass because you can do so much more with Sass than you can with CSS.",
+      "author": "Codedreamer",
+      "id": 6
+    },
+    {
+      "title": "How to add CSS to HTML file",
+      "body": "To add a link to the styles sheet in the index.html file, first you must create a styles.css file in vs code. Add your styles. Then go to index.html in the header section, type link. The link tag should open. Add the path to the styles.css in the href.",
+      "author": "Codedreamer",
+      "id": 7
+    }
+  ]
 }
